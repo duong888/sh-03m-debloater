@@ -65,7 +65,7 @@ This part is made for anyone who doesn't know anything about Japanese, but someh
 
 **SPOILER ALERT:** There's not much fun stuff at this screen btw.
 
-Say, if you still have USB Debugging enabled after all of that, follow this:
+Say, you still have USB Debugging enabled after all of that, follow this:
 
 1. Connect to your PC, run **"adb reboot bootloader"** while the phone is still running.
 2. At Download Mode screen, **hold down your Power button** for 10s (or 'til the device shut off).
