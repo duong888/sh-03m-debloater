@@ -85,4 +85,4 @@ Say, you still have USB Debugging enabled after all of that, follow this:
 
 Scripting, testing by **myself**, duh.
 README.md by **Claude.ai**.
-Device by someone from **Facebook Marketplace**.
+Device provided by Fu Ong [**Duc Anhh**](https://www.facebook.com/L1ghts01).
