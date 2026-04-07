@@ -6,7 +6,7 @@ A Windows batch script to debloat and set up the **Sharp SH-03M** (NTT Docomo) A
 
 ---
 
-## What It Does
+## ❓ What It Does
 
 1. **Disable & clear bloatware** — Kids mode apps, Sharp/Docomo system services and carrier apps are disabled and wiped data.
 2. **Install replacement apps** — Lean Launcher, a browser of your choice, Aurora Store, MoreLocale 2, and SetEdit are sideloaded and granted necessary permissions.
@@ -18,7 +18,7 @@ A Windows batch script to debloat and set up the **Sharp SH-03M** (NTT Docomo) A
 
 ---
 
-## Requirements
+## 📁 Requirements
 
 - A Windows PC with **ADB** installed and working
 - **Sharp SH-03M** running stock firmware
@@ -33,7 +33,7 @@ A Windows batch script to debloat and set up the **Sharp SH-03M** (NTT Docomo) A
 
 ---
 
-## How to use
+## 🛠️ How to use
 
 1. Set up your phone and enable USB Debugging from the Adult Settings (hadn't done it yet? **scroll down**).
 2. Connect the phone to your PC via USB and authorize the ADB connection when prompted on the device.
@@ -44,7 +44,7 @@ A Windows batch script to debloat and set up the **Sharp SH-03M** (NTT Docomo) A
 
 ---
 
-## Setup and enable USB Debugging
+## 🔧 Setup and enable USB Debugging
 
 This part is made for anyone who doesn't know anything about Japanese, but somehow got this phone on hand (like me).
 
@@ -61,7 +61,7 @@ This part is made for anyone who doesn't know anything about Japanese, but someh
 
 ---
 
-## Recovery
+## ❤️‍🩹 Recovery
 
 **SPOILER ALERT:** There's not much fun stuff at this screen btw.
 
@@ -81,7 +81,8 @@ Say, you still have USB Debugging enabled after all of that, follow this:
 
 ---
 
-## Credits
+## 🙏 Credits
 
-Script by **duong888**.
+Scripting, testing by **myself**, duh.
 README.md by **Claude.ai**.
+Device by someone from **Facebook Marketplace**.
