@@ -33,18 +33,18 @@ A Windows batch script to debloat and set up the **Sharp SH-03M** (NTT Docomo) A
 
 ---
 
-## Usage
+## How to use
 
-1. Set up your phone and enable USB Debugging from the Adult Settings.
+1. Set up your phone and enable USB Debugging from the Adult Settings (hadn't done it yet? **scroll down**).
 2. Connect the phone to your PC via USB and authorize the ADB connection when prompted on the device.
 3. Place the script and all required APKs inside your ADB folder.
 4. Double-click `runme.bat` and follow the on-screen prompts.
 5. The device will reboot automatically when done.
-6. After reboot, **open MoreLocale 2** to change the system language.
+6. Enjoy your fully debloated cutie-pie with all the stuff you need.
 
 ---
 
-## Setup your SH-03M and enable USB Debugging
+## Setup and enable USB Debugging
 
 This part is made for anyone who doesn't know anything about Japanese, but somehow got this phone on hand (like me).
 
@@ -56,15 +56,26 @@ This part is made for anyone who doesn't know anything about Japanese, but someh
 5. Look for an option named **端末情報** and tap on it.
 6. Find **ビルド番号** and tap 7 times to enable Developer mode.
 7. After a toast appeared without any countdown, press Back and tap **開発者オプション**.
-8. Scroll down slowly at that section, then tap on **USBデバッグ** once you see it. (if it asks for confirmation, tap "OK")
-9. At this point, you've completed the Setup, now scroll upward to **Usage** part and continue.
+8. **Scroll down slowly at that section**, then tap on **USBデバッグ** once you see it. (if it asks for confirmation, tap "OK")
+9. At this point, you've completed the Setup, now **scroll up** to finish the rest.
 
 ---
 
+## Recovery
+
+**SPOILER ALERT:** There's not much fun stuff at this screen btw.
+
+Say, if you still have USB Debugging enabled after all of that, follow this:
+
+1. Connect to your PC, run **"adb reboot bootloader"** while the phone is still running.
+2. At Download Mode screen, **hold down your Power button** for 10s (or 'til the device shut off).
+3. **Hold down your power button to boot up**, wait till the lock screen show up.
+4. After that, run **"adb reboot recovery"** to get into the Recovery menu.
+
 ## ⚠️ Warnings
 
-- Changing the language will break approximately **36% of pre-installed features and apps**, including the Dialer app, wallpaper settings, and Adult Settings applets. This is a known limitation.
-- Disabling system packages is reversible using "adb pm enable" command.
+- Changing the language will break approximately **36% of pre-installed apps and features**, including the Dialer app, wallpaper settings, and Adult Settings applets. **This is a known limitation**.
+- Disabling system packages is reversible using **"adb pm enable"** command.
 
 ---
 
