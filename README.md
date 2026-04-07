@@ -46,7 +46,7 @@ A Windows batch script to debloat and set up the **Sharp SH-03M** (NTT Docomo) A
 
 ## ⚠️ Warnings
 
-- Changing the language via MoreLocale 2 will break approximately **36% of pre-installed features and apps**, including the Dialer app, wallpaper settings, and Adult Settings applets. This is a known limitation.
+- Changing the language will break approximately **36% of pre-installed features and apps**, including the Dialer app, wallpaper settings, and Adult Settings applets. This is a known limitation.
 - Disabling system packages is reversible using "adb pm enable" command.
 
 ---
