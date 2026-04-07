@@ -44,6 +44,14 @@ A Windows batch script to debloat and set up the **Sharp SH-03M** (NTT Docomo) A
 
 ---
 
+## Setup your SH-03M
+
+This part is made for anyone who doesn't know anything about Japanese, but somehow got this phone on hand (like me).
+1. At first startup, if it asks something about "SIM情報設定", tap "スキップ".
+2. 
+
+---
+
 ## ⚠️ Warnings
 
 - Changing the language will break approximately **36% of pre-installed features and apps**, including the Dialer app, wallpaper settings, and Adult Settings applets. This is a known limitation.
