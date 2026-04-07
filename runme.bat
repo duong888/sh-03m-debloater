@@ -83,7 +83,7 @@ echo.
 echo + Done, to change your language, launch MoreLocale2.
 echo.
 echo + Beware that doing so will mess up 36%% of features and apps pre-installed 
-echo (that includes Dialer app, set wallpaper, and Adult Settings). 
+echo (that includes Dialer app, set wallpaper, and Adult Settings applets). 
 echo.
 echo + You've been warned.
 echo.
