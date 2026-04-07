@@ -35,7 +35,7 @@ A Windows batch script to debloat and set up the **Sharp SH-03M** (NTT Docomo) A
 
 ## Usage
 
-1. Set up your phone and enable USB Debugging from the Adult Settings (in case you forgot, the default password is 0000).
+1. Set up your phone and enable USB Debugging from the Adult Settings.
 2. Connect the phone to your PC via USB and authorize the ADB connection when prompted on the device.
 3. Place the script and all required APKs inside your ADB folder.
 4. Double-click `runme.bat` and follow the on-screen prompts.
@@ -44,11 +44,20 @@ A Windows batch script to debloat and set up the **Sharp SH-03M** (NTT Docomo) A
 
 ---
 
-## Setup your SH-03M
+## Setup your SH-03M and enable USB Debugging
 
 This part is made for anyone who doesn't know anything about Japanese, but somehow got this phone on hand (like me).
-1. At first startup, if it asks something about "SIM情報設定", tap "スキップ".
-2. 
+
+1. At first startup, if it asks something about **SIM情報設定**, tap **スキップ**.
+2. A pop-up with title **確認** should appeared, tap **はい**. It should kick you to the home screen.
+3. At the home screen, look for an app named **ほごしゃメニュー** with "a user next to a gear" icon.
+* If it asks for password, type **0000** and tap **確認**.
+4. Scroll down to the bottom of the selection, find and tap **システム**.
+5. Look for an option named **端末情報** and tap on it.
+6. Find **ビルド番号** and tap 7 times to enable Developer mode.
+7. After a toast appeared without any countdown, press Back and tap **開発者オプション**.
+8. Scroll down slowly at that section, then tap on **USBデバッグ** once you see it. (if it asks for confirmation, tap "OK")
+9. At this point, you've completed the Setup, now scroll upward to **Usage** part and continue.
 
 ---
 
