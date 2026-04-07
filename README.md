@@ -20,7 +20,7 @@ A Windows batch script to debloat and set up the **Sharp SH-03M** (NTT Docomo) A
 
 ## 📁 Requirements
 
-- A Windows PC with **ADB** installed and working
+- A Windows PC with [**ADB**](https://developer.android.com/tools/releases/platform-tools) installed and working
 - **Sharp SH-03M** running stock firmware
 - USB Debugging enabled on the phone (Settings → Developer Options → USB Debugging)
 - The following files placed in the same folder as the script and your ADB executable **(be sure to rename the downloaded files perspectively)**:
@@ -84,5 +84,5 @@ Say, you still have USB Debugging enabled after all of that, follow this:
 ## 🙏 Credits
 
 Scripting, testing by **myself**, duh.
-README.md by **Claude.ai**.
+README.md by **Claude.ai and myself**.
 Device provided by Fu Ong [**Duc Anhh**](https://www.facebook.com/L1ghts01).
