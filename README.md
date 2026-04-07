@@ -72,6 +72,8 @@ Say, you still have USB Debugging enabled after all of that, follow this:
 3. **Hold down your power button to boot up**, wait till the lock screen show up.
 4. After that, run **"adb reboot recovery"** to get into the Recovery menu.
 
+---
+
 ## ⚠️ Warnings
 
 - Changing the language will break approximately **36% of pre-installed apps and features**, including the Dialer app, wallpaper settings, and Adult Settings applets. **This is a known limitation**.
